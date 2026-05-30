@@ -542,8 +542,11 @@ Mass Communication</h5>
                 <div class="col-md-12">
                   <input type="text" name="subject" placeholder="Subject" class="form-control" required>
                 </div>
-                <div class="col-md-12"><textarea name="" id=""></textarea></div>
-                <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
+                <div class="col-md-12">
+               <!-- 2. Added name="description" so Formspree captures this data -->
+               <textarea name="description" id="description" placeholder="Your Message" class="form-control" required></textarea>
+               </div>
+               <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
               </div>
               </form>
             </div>
